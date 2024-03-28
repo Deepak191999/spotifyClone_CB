@@ -19,7 +19,7 @@ body {
 .right {
   border: 2px solid yellow;
   height: 90vh;
-  
+  background-color: #242424;
   /* margin-left: 3px; */
 }
 .leftUpr {
@@ -86,7 +86,7 @@ body {
   height: 4rem;
   position: fixed;
   /* left: 0; */
-z-index: 20;
+z-index: 2;
   bottom: 0;
   width: 100%;
 }
@@ -113,7 +113,7 @@ font-size: large;
 }
 .mainw
 {
-  max-height: 33rem;
+  max-height: 32rem;
   overflow: auto; /* or overflow: scroll; */
   /* height: 200px; Set a height for the container to enable scrolling */
   /* width: 300px;  */
@@ -121,3 +121,8 @@ font-size: large;
     /* height: 120rem; */
 }
 
+.huh:hover
+{
+font-weight: 700;
+font-size:17px;
+}
