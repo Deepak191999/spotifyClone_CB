@@ -10,12 +10,14 @@ body {
   background-color: #000;
   color: white;
   position: relative;
-  /* height: 98vh; */
+  max-height: 98vh;
 }
-.left {
-  /* border: 2px solid red; */
-  /* height: 90vh; */
-}
+/* @media (max-width: 950px) {
+  body{
+    max-height: 50vh /* Change display property for smaller screens */
+  /* }
+} */ */
+
 .right {
   /* border: 2px solid yellow; */
   /* height: 90vh; */
