@@ -10,15 +10,15 @@ body {
   background-color: #000;
   color: white;
   position: relative;
-  height: 98vh;
+  /* height: 98vh; */
 }
 .left {
-  border: 2px solid red;
-  height: 90vh;
+  /* border: 2px solid red; */
+  /* height: 90vh; */
 }
 .right {
-  border: 2px solid yellow;
-  height: 90vh;
+  /* border: 2px solid yellow; */
+  /* height: 90vh; */
   background-color: #242424;
   /* margin-left: 3px; */
 }
@@ -63,12 +63,15 @@ body {
 }
 .leftMid2{
  
-    overflow: auto; /* Add overflow property */
+    overflow: hidden; /* Add overflow property */
     /* max-height: 200px; */
     /* overflow: auto; */
     
     max-height: 8.8rem;
     border-radius: 10px;
+}
+.leftMid2:hover{
+  overflow: auto;
 }
 .leftMid2-1,.leftMid2-2
 {
@@ -96,7 +99,7 @@ ul li{
 
 .leftLast
 { background-color: #101010;
-  height: 11rem;
+  height: 11.4rem;
 }
 
 
@@ -113,7 +116,7 @@ font-size: large;
 }
 .mainw
 {
-  max-height: 32rem;
+  max-height: 34rem;
   overflow: auto; /* or overflow: scroll; */
   /* height: 200px; Set a height for the container to enable scrolling */
   /* width: 300px;  */
@@ -121,8 +124,40 @@ font-size: large;
     /* height: 120rem; */
 }
 
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  align-items: center; 
+}
+
+.card:hover {
+  background-color: #4e4d4d !important; /* Red background on hover */
+}
+
+ul
+{
+  list-style: none;
+  color: whitesmoke;
+}
+.bold-list
+{
+  margin-right: 4rem;
+}
+
+.bold-list li:first-child
+{
+font-weight: bolder;
+margin-bottom: 5px;
+}
 .huh:hover
 {
 font-weight: 700;
 font-size:17px;
+}
+.kk
+{
+  display: flex;
+  justify-content: space-between !important;
 }
