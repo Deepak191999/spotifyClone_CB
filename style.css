@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.container-fluid {
+  margin-top: 10px;
+}
+body {
+  background-color: #000;
+  color: white;
+  position: relative;
+  height: 98vh;
+}
+.left {
+  border: 2px solid red;
+  height: 90vh;
+}
+.right {
+  border: 2px solid yellow;
+  height: 90vh;
+  
+  /* margin-left: 3px; */
+}
+.leftUpr {
+  background-color: #101010;
+  height: 11rem;
+  padding: 1px 2px;
+  border-radius: 10px;
+}
+.leftMid {
+  background-color: #101010;
+  height: 15rem;
+  padding: 1px 2px;
+  border-radius: 10px;
+  margin-top: 10px;
+ 
+}
+.section {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 1.2rem;
+}
+.section img {
+  margin-right: 0.2rem;
+}
+.fa-solid {
+  font-size: x-large;
+  margin-right: 1.2rem;
+}
+.ll {
+  margin-bottom: 20px !important;
+}
+
+
+
+.leftMid1
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px !important;
+    padding-left: 14px;
+}
+.leftMid2{
+ 
+    overflow: auto; /* Add overflow property */
+    /* max-height: 200px; */
+    /* overflow: auto; */
+    
+    max-height: 8.8rem;
+    border-radius: 10px;
+}
+.leftMid2-1,.leftMid2-2
+{
+    margin-bottom: 30px;
+    background-color: #242424;
+    /* height: 70px; */
+    
+}
+
+
+
+.footers{
+  background-color: #fc00ff;
+  background-image: linear-gradient(90deg, #fc00ff 0%, #00dbde 100%);
+  height: 4rem;
+  position: fixed;
+  /* left: 0; */
+z-index: 20;
+  bottom: 0;
+  width: 100%;
+}
+ul li{
+  margin-right: 20px;
+}
+
+.leftLast
+{ background-color: #101010;
+  height: 11rem;
+}
+
+
+/* -----------------------------------right side--------------------------------------- */
+.navbar
+{
+  /* height: 60px; */
+  background-color: #101010;
+  justify-content: space-between;
+}
+.signup:hover
+{
+font-size: large;
+}
+.mainw
+{
+  max-height: 33rem;
+  overflow: auto; /* or overflow: scroll; */
+  /* height: 200px; Set a height for the container to enable scrolling */
+  /* width: 300px;  */
+    
+    /* height: 120rem; */
+}
+
